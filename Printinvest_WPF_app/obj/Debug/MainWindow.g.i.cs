@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Printinvest_WPF_app;
 using System;
 using System.Diagnostics;
 using System.Windows;
@@ -40,6 +39,38 @@ namespace Printinvest_WPF_app {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 8 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.ColumnDefinition NavColumn;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 14 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.StackPanel NavPanel;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 16 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Primitives.ToggleButton ToggleNavButton;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 31 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Frame MainFrame;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +99,57 @@ namespace Printinvest_WPF_app {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.NavColumn = ((System.Windows.Controls.ColumnDefinition)(target));
+            return;
+            case 2:
+            this.NavPanel = ((System.Windows.Controls.StackPanel)(target));
+            return;
+            case 3:
+            this.ToggleNavButton = ((System.Windows.Controls.Primitives.ToggleButton)(target));
+            
+            #line 22 "..\..\MainWindow.xaml"
+            this.ToggleNavButton.Checked += new System.Windows.RoutedEventHandler(this.ToggleNavButton_Checked);
+            
+            #line default
+            #line hidden
+            
+            #line 23 "..\..\MainWindow.xaml"
+            this.ToggleNavButton.Unchecked += new System.Windows.RoutedEventHandler(this.ToggleNavButton_Unchecked);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            
+            #line 25 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.NavigateHome_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 5:
+            
+            #line 26 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.NavigateSettings_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            
+            #line 27 "..\..\MainWindow.xaml"
+            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.NavigateAbout_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 7:
+            this.MainFrame = ((System.Windows.Controls.Frame)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }
