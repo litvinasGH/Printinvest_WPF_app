@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A250DD2B-5DFB-4535-BC55-7BA96E5A1662}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|c:\\users\\litvi\\documents\\printinvest_wpf_app\\printinvest_wpf_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A250DD2B-5DFB-4535-BC55-7BA96E5A1662}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|c:\\users\\litvi\\documents\\printinvest_wpf_app\\printinvest_wpf_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A250DD2B-5DFB-4535-BC55-7BA96E5A1662}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|c:\\users\\litvi\\documents\\printinvest_wpf_app\\printinvest_wpf_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A250DD2B-5DFB-4535-BC55-7BA96E5A1662}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|c:\\users\\litvi\\documents\\printinvest_wpf_app\\printinvest_wpf_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,7 +37,7 @@
               "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\MainWindow.xaml",
               "RelativeToolTip": "Printinvest_WPF_app\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T06:34:21.98Z",
+              "WhenOpened": "2025-05-18T06:50:26.695Z",
               "EditorCaption": ""
             },
             {
@@ -50,7 +50,7 @@
               "RelativeToolTip": "Printinvest_WPF_app\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:34:18.091Z",
+              "WhenOpened": "2025-05-18T06:50:23.811Z",
               "EditorCaption": ""
             }
           ]
