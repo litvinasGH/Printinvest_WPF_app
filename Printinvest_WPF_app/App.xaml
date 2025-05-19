@@ -10,6 +10,8 @@
             <conv:PasswordBoxConverter x:Key="PasswordBoxConverter" />
             <conv:OrderStatusConverter x:Key="OrderStatusConverter" />
             <conv:ItemTypeConverter x:Key="ItemTypeConverter" />
+            <conv:CartItemTotalPriceConverter x:Key="CartItemTotalPriceConverter"/>
+            <conv:CartItemPriceConverter x:Key="CartItemPriceConverter"/>
             <conv:FilterNameConverter x:Key="FilterNameConverter" />
             <DataTemplate x:Key="OrderStatusTemplate">
                 <TextBlock Text="{Binding Converter={StaticResource OrderStatusConverter}}" />

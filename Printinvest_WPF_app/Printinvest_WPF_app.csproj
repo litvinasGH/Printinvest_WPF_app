@@ -177,15 +177,28 @@
     </ApplicationDefinition>
     <Compile Include="Converters\BoolToVisConverter.cs" />
     <Compile Include="Converters\ByteArrayToImageConverter.cs" />
+    <Compile Include="Converters\CartItemTotalPriceConverter.cs" />
     <Compile Include="Converters\FilterNameConverter.cs" />
     <Compile Include="Converters\HashHelper.cs" />
     <Compile Include="Converters\ItemTypeConverter.cs" />
     <Compile Include="Converters\OrderStatusConverter.cs" />
     <Compile Include="Converters\PasswordBoxConverter.cs" />
     <Compile Include="Converters\SessionManager.cs" />
-    <Compile Include="Models\AppDbContext.cs" />
-    <Compile Include="Models\Models.cs" />
-    <Compile Include="Models\Repositories.cs" />
+    <Compile Include="Models\Analytic.cs" />
+    <Compile Include="Models\Cart.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\Items.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Repositories\AnalyticRepository.cs" />
+    <Compile Include="Repositories\AppDbContext.cs" />
+    <Compile Include="Repositories\CartRepository.cs" />
+    <Compile Include="Repositories\CommentRepository.cs" />
+    <Compile Include="Repositories\OrderRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\Repositories.cs" />
+    <Compile Include="Repositories\ServiceRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModels\AdminPanelViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\CartViewModel.cs" />
@@ -358,8 +371,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
-    <Folder Include="Repositories\" />
     <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
@@ -368,6 +379,10 @@
     <Resource Include="Assets\language.png" />
     <Resource Include="Assets\profile.png" />
     <Resource Include="Assets\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\defaultproduct.png" />
+    <Resource Include="Images\defaultprofile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />

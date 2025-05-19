@@ -118,9 +118,9 @@ namespace Printinvest_WPF_app.ViewModels
                 Products.Clear();
                 Services.Clear();
 
-                var users =  _userRepository.GetAll();
-                var products =  _productRepository.GetAll();
-                var services =  _serviceRepository.GetAll();
+                var users = _userRepository.GetAll();
+                var products = _productRepository.GetAll();
+                var services = _serviceRepository.GetAll();
 
                 foreach (var user in users) Users.Add(user);
                 foreach (var product in products) Products.Add(product);
@@ -136,7 +136,7 @@ namespace Printinvest_WPF_app.ViewModels
         {
             if (SelectedUser == null)
             {
-                //MessageBox.Show("Выберите пользователя для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Выберите пользователя для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             try
@@ -147,7 +147,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Ошибка удаления пользователя: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Ошибка удаления пользователя: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -155,7 +155,7 @@ namespace Printinvest_WPF_app.ViewModels
         {
             if (SelectedProduct == null)
             {
-                //MessageBox.Show("Выберите товар для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Выберите товар для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             try
@@ -166,7 +166,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Ошибка удаления товара: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Ошибка удаления товара: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -174,7 +174,7 @@ namespace Printinvest_WPF_app.ViewModels
         {
             if (SelectedService == null)
             {
-                //MessageBox.Show("Выберите услугу для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Выберите услугу для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
             try
@@ -185,17 +185,19 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Ошибка удаления услуги: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Ошибка удаления услуги: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async Task SaveProductAsync()
         {
-            if (SelectedProduct == null || string.IsNullOrWhiteSpace(SelectedProduct.Name) ||
+            if (SelectedProduct == null ||
+                string.IsNullOrWhiteSpace(SelectedProduct.Name) ||
                 string.IsNullOrWhiteSpace(SelectedProduct.Description) ||
-                string.IsNullOrWhiteSpace(SelectedProduct.Characteristics))
+                string.IsNullOrWhiteSpace(SelectedProduct.Characteristics) ||
+                SelectedProduct.Price < 0)
             {
-                //MessageBox.Show("Все поля (Название, Описание, Характеристики) должны быть заполнены.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Все поля (Название, Описание, Характеристики, Цена) должны быть заполнены, а цена должна быть неотрицательной.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -215,17 +217,19 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Ошибка сохранения товара: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Ошибка сохранения товара: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         private async Task SaveServiceAsync()
         {
-            if (SelectedService == null || string.IsNullOrWhiteSpace(SelectedService.Name) ||
+            if (SelectedService == null ||
+                string.IsNullOrWhiteSpace(SelectedService.Name) ||
                 string.IsNullOrWhiteSpace(SelectedService.Description) ||
-                string.IsNullOrWhiteSpace(SelectedService.Characteristics))
+                string.IsNullOrWhiteSpace(SelectedService.Characteristics) ||
+                SelectedService.Price < 0)
             {
-                //MessageBox.Show("Все поля (Название, Описание, Характеристики) должны быть заполнены.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Все поля (Название, Описание, Характеристики, Цена) должны быть заполнены, а цена должна быть неотрицательной.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -245,7 +249,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                //MessageBox.Show($"Ошибка сохранения услуги: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Ошибка сохранения услуги: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -267,7 +271,7 @@ namespace Printinvest_WPF_app.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    //MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }
@@ -290,7 +294,7 @@ namespace Printinvest_WPF_app.ViewModels
                 }
                 catch (Exception ex)
                 {
-                    //MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    MessageBox.Show($"Ошибка загрузки изображения: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
         }

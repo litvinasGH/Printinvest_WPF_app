@@ -12,6 +12,7 @@ namespace Printinvest_WPF_app.ViewModels
         private readonly UserRepository _userRepository;
         private string _login;
         private string _password;
+        private string _confirmPassword;
         private string _name;
         private string _errorMessage;
 
@@ -25,6 +26,12 @@ namespace Printinvest_WPF_app.ViewModels
         {
             get => _password;
             set => SetProperty(ref _password, value);
+        }
+
+        public string ConfirmPassword
+        {
+            get => _confirmPassword;
+            set => SetProperty(ref _confirmPassword, value);
         }
 
         public string Name
@@ -53,17 +60,24 @@ namespace Printinvest_WPF_app.ViewModels
         {
             return !string.IsNullOrWhiteSpace(Login) &&
                    !string.IsNullOrWhiteSpace(Password) &&
+                   !string.IsNullOrWhiteSpace(ConfirmPassword) &&
                    !string.IsNullOrWhiteSpace(Name);
         }
 
-        private async void RegisterExecute()
+        private void RegisterExecute()
         {
             try
             {
+                if (Password != ConfirmPassword)
+                {
+                    ErrorMessage = Application.Current.Resources["ErrorPasswordsDoNotMatch"]?.ToString() ?? "Пароли не совпадают.";
+                    return;
+                }
+
                 var existingUser = _userRepository.GetByLogin(Login);
                 if (existingUser != null)
                 {
-                    ErrorMessage = Application.Current.Resources["ErrorUserExists"]?.ToString();
+                    ErrorMessage = Application.Current.Resources["ErrorUserExists"]?.ToString() ?? "Пользователь с таким логином уже существует.";
                     return;
                 }
 

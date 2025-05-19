@@ -4,6 +4,7 @@ using Printinvest_WPF_app.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
@@ -22,10 +23,40 @@ namespace Printinvest_WPF_app.ViewModels
         private ObservableCollection<string> _paymentMethods;
         private string _selectedPaymentMethod;
 
+        public decimal TotalPrice => CartItems.Sum(item =>
+            (item.Product?.Price ?? item.Service?.Price ?? 0) * item.Quantity);
+
         public ObservableCollection<CartItem> CartItems
         {
             get => _cartItems;
-            set => SetProperty(ref _cartItems, value);
+            set
+            {
+                if (_cartItems != value)
+                {
+                    // Отписываемся от старых элементов
+                    if (_cartItems != null)
+                    {
+                        foreach (var item in _cartItems)
+                        {
+                            item.PropertyChanged -= CartItem_PropertyChanged;
+                        }
+                    }
+
+                    _cartItems = value;
+
+                    // Подписываемся на новые элементы
+                    if (_cartItems != null)
+                    {
+                        foreach (var item in _cartItems)
+                        {
+                            item.PropertyChanged += CartItem_PropertyChanged;
+                        }
+                    }
+
+                    OnPropertyChanged();
+                    OnPropertyChanged(nameof(TotalPrice));
+                }
+            }
         }
 
         public string RecipientName
@@ -65,7 +96,6 @@ namespace Printinvest_WPF_app.ViewModels
 
         public CartViewModel()
         {
-
             _cartRepository = RepositoryManager.Carts;
             _orderRepository = RepositoryManager.Orders;
 
@@ -81,6 +111,14 @@ namespace Printinvest_WPF_app.ViewModels
             LoadCart();
         }
 
+        private void CartItem_PropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            if (e.PropertyName == nameof(CartItem.Quantity))
+            {
+                OnPropertyChanged(nameof(TotalPrice));
+            }
+        }
+
         private void LoadCart()
         {
             try
@@ -88,7 +126,6 @@ namespace Printinvest_WPF_app.ViewModels
                 if (!SessionManager.IsAuthenticated)
                 {
                     MessageBox.Show("Пожалуйста, войдите в систему для просмотра корзины.", "Авторизация требуется", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    
                     return;
                 }
 
@@ -109,10 +146,11 @@ namespace Printinvest_WPF_app.ViewModels
                 {
                     CartItems.Add(item);
                 }
+                OnPropertyChanged(nameof(TotalPrice));
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка загрузки корзины: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка загрузки корзины: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -122,15 +160,10 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (parameter is CartItem item)
                 {
-                    Console.WriteLine($"Увеличение количества для CartItem Id: {item.Id}");
                     item.Quantity++;
                     _cartRepository.Update(_cart);
-                    OnPropertyChanged(nameof(CartItems)); // Уведомляем UI об изменении
-                    Console.WriteLine($"Новое количество: {item.Quantity}");
-                }
-                else
-                {
-                    Console.WriteLine("Параметр IncreaseQuantity не является CartItem");
+                    OnPropertyChanged(nameof(TotalPrice));
+                    LoadCart();
                 }
             }
             catch (Exception ex)
@@ -145,15 +178,10 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (parameter is CartItem item && item.Quantity > 1)
                 {
-                    Console.WriteLine($"Уменьшение количества для CartItem Id: {item.Id}");
                     item.Quantity--;
                     _cartRepository.Update(_cart);
-                    OnPropertyChanged(nameof(CartItems)); // Уведомляем UI об изменении
-                    Console.WriteLine($"Новое количество: {item.Quantity}");
-                }
-                else
-                {
-                    Console.WriteLine("Параметр DecreaseQuantity не является CartItem или Quantity <= 1");
+                    OnPropertyChanged(nameof(TotalPrice));
+                    LoadCart();
                 }
             }
             catch (Exception ex)
@@ -168,9 +196,9 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (parameter is CartItem item)
                 {
-                    Console.WriteLine($"Удаление CartItem Id: {item.Id}");
                     _cartRepository.RemoveItemFromCart(_cart.Id, item.Id);
                     CartItems.Remove(item);
+                    OnPropertyChanged(nameof(TotalPrice));
                 }
             }
             catch (Exception ex)

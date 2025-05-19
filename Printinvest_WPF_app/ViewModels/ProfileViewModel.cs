@@ -59,7 +59,7 @@ namespace Printinvest_WPF_app.ViewModels
                 if (string.IsNullOrWhiteSpace(CurrentUser.Name) || string.IsNullOrWhiteSpace(CurrentUser.Login))
                 {
                     MessageBox.Show(Application.Current.TryFindResource("ErrorInvalidInput")?.ToString() ?? "Please fill in all fields",
-                                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
 

@@ -13,9 +13,12 @@ namespace Printinvest_WPF_app.ViewModels
     {
         private readonly AnalyticRepository _analyticRepository;
         private readonly OrderRepository _orderRepository;
+        private readonly CommentRepository _commentRepository;
         private ObservableCollection<Analytic> _analytics;
         private ObservableCollection<Order> _orders;
+        private ObservableCollection<Comment> _comments;
         private Order _selectedOrder;
+        private Comment _selectedComment;
         private OrderStatus _selectedOrderStatus;
         private string _analyticsSearchQuery;
         private string _selectedAnalyticsFilter;
@@ -33,6 +36,12 @@ namespace Printinvest_WPF_app.ViewModels
             set => SetProperty(ref _orders, value);
         }
 
+        public ObservableCollection<Comment> Comments
+        {
+            get => _comments;
+            set => SetProperty(ref _comments, value);
+        }
+
         public Order SelectedOrder
         {
             get => _selectedOrder;
@@ -41,6 +50,12 @@ namespace Printinvest_WPF_app.ViewModels
                 SetProperty(ref _selectedOrder, value);
                 SelectedOrderStatus = value?.Status ?? OrderStatus.Pending;
             }
+        }
+
+        public Comment SelectedComment
+        {
+            get => _selectedComment;
+            set => SetProperty(ref _selectedComment, value);
         }
 
         public OrderStatus SelectedOrderStatus
@@ -95,20 +110,24 @@ namespace Printinvest_WPF_app.ViewModels
         public ICommand LoadDataCommand { get; }
         public ICommand UpdateOrderStatusCommand { get; }
         public ICommand DeleteOrderCommand { get; }
+        public ICommand DeleteCommentCommand { get; }
         public ICommand ClearAnalyticsSearchCommand { get; }
 
         public ManagerPanelViewModel()
         {
             _analyticRepository = RepositoryManager.Analytics;
             _orderRepository = RepositoryManager.Orders;
+            _commentRepository = RepositoryManager.Comments;
 
             Analytics = new ObservableCollection<Analytic>();
             Orders = new ObservableCollection<Order>();
+            Comments = new ObservableCollection<Comment>();
             SelectedAnalyticsFilter = AnalyticsFilters.First();
 
             LoadDataCommand = new RelayCommand(LoadData);
             UpdateOrderStatusCommand = new RelayCommand(UpdateOrderStatus);
             DeleteOrderCommand = new RelayCommand(DeleteOrder);
+            DeleteCommentCommand = new RelayCommand(DeleteComment);
             ClearAnalyticsSearchCommand = new RelayCommand(() => AnalyticsSearchQuery = string.Empty);
 
             LoadDataCommand.Execute(null);
@@ -125,11 +144,18 @@ namespace Printinvest_WPF_app.ViewModels
                     Orders.Add(order);
                 }
 
+                Comments.Clear();
+                var comments = _commentRepository.GetAll();
+                foreach (var comment in comments)
+                {
+                    Comments.Add(comment);
+                }
+
                 LoadAnalytics();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка загрузки данных: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка загрузки данных: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -174,7 +200,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка загрузки аналитики: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка загрузки аналитики: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -184,17 +210,17 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (SelectedOrder == null)
                 {
-                    MessageBox.Show("Выберите заказ для обновления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    //MessageBox.Show("Выберите заказ для обновления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 SelectedOrder.Status = SelectedOrderStatus;
                 _orderRepository.Update(SelectedOrder);
-                MessageBox.Show("Статус заказа обновлён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                //MessageBox.Show("Статус заказа обновлён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка обновления статуса заказа: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка обновления статуса заказа: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -204,18 +230,39 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (SelectedOrder == null)
                 {
-                    MessageBox.Show("Выберите заказ для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    //MessageBox.Show("Выберите заказ для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
                 _orderRepository.Delete(SelectedOrder.Id);
                 Orders.Remove(SelectedOrder);
                 SelectedOrder = null;
-                MessageBox.Show("Заказ удалён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                //MessageBox.Show("Заказ удалён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка удаления заказа: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка удаления заказа: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void DeleteComment()
+        {
+            try
+            {
+                if (SelectedComment == null)
+                {
+                    //MessageBox.Show("Выберите комментарий для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                _commentRepository.Delete(SelectedComment.Id);
+                Comments.Remove(SelectedComment);
+                SelectedComment = null;
+                //MessageBox.Show("Комментарий удалён.", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show($"Ошибка удаления комментария: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
     }

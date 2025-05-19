@@ -24,7 +24,6 @@
                    Margin="0,0,0,10"/>
 
         <TabControl Grid.Row="1" Background="{DynamicResource ContentBackgroundBrush}">
-            <!-- Пользователи -->
             <TabItem Header="{DynamicResource UsersTab}">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -50,7 +49,6 @@
                 </Grid>
             </TabItem>
 
-            <!-- Товары -->
             <TabItem Header="{DynamicResource ProductsTab}">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -63,7 +61,8 @@
                             <GridView>
                                 <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
                                 <GridViewColumn Header="Название" DisplayMemberBinding="{Binding Name}" Width="200"/>
-                                <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="300"/>
+                                <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="250"/>
+                                <GridViewColumn Header="Цена (BYN)" DisplayMemberBinding="{Binding Price, StringFormat={}{0:F2}}" Width="100"/>
                             </GridView>
                         </ListView.View>
                     </ListView>
@@ -106,6 +105,29 @@
                                 <TextBlock Text="Характеристики" Margin="0,0,0,5"/>
                                 <TextBox Text="{Binding SelectedProduct.Characteristics, UpdateSourceTrigger=PropertyChanged}"
                                          AcceptsReturn="True" Height="60" Margin="0,0,0,5"/>
+                                <TextBlock Text="Цена (BYN)" Margin="0,0,0,5"/>
+                                <TextBox Text="{Binding SelectedProduct.Price, UpdateSourceTrigger=PropertyChanged}"
+                                         Margin="0,0,0,5">
+                                    <TextBox.Resources>
+                                        <VisualBrush x:Key="PlaceholderBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                                            <VisualBrush.Visual>
+                                                <TextBlock Text="0.00" Foreground="Gray" Margin="6,0,0,0"/>
+                                            </VisualBrush.Visual>
+                                        </VisualBrush>
+                                    </TextBox.Resources>
+                                    <TextBox.Style>
+                                        <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                                            <Style.Triggers>
+                                                <Trigger Property="Text" Value="">
+                                                    <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                                                </Trigger>
+                                                <Trigger Property="Text" Value="{x:Null}">
+                                                    <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBox.Style>
+                                </TextBox>
                                 <TextBlock Text="Фото" Margin="0,0,0,5"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                     <Button Content="Загрузить фото"
@@ -125,7 +147,6 @@
                 </Grid>
             </TabItem>
 
-            <!-- Услуги -->
             <TabItem Header="{DynamicResource ServicesTab}">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -138,7 +159,8 @@
                             <GridView>
                                 <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
                                 <GridViewColumn Header="Название" DisplayMemberBinding="{Binding Name}" Width="200"/>
-                                <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="300"/>
+                                <GridViewColumn Header="Описание" DisplayMemberBinding="{Binding Description}" Width="250"/>
+                                <GridViewColumn Header="Цена (BYN)" DisplayMemberBinding="{Binding Price, StringFormat={}{0:F2}}" Width="100"/>
                             </GridView>
                         </ListView.View>
                     </ListView>
@@ -181,6 +203,29 @@
                                 <TextBlock Text="Характеристики" Margin="0,0,0,5"/>
                                 <TextBox Text="{Binding SelectedService.Characteristics, UpdateSourceTrigger=PropertyChanged}"
                                          AcceptsReturn="True" Height="60" Margin="0,0,0,5"/>
+                                <TextBlock Text="Цена (BYN)" Margin="0,0,0,5"/>
+                                <TextBox Text="{Binding SelectedService.Price, UpdateSourceTrigger=PropertyChanged}"
+                                         Margin="0,0,0,5">
+                                    <TextBox.Resources>
+                                        <VisualBrush x:Key="PlaceholderBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                                            <VisualBrush.Visual>
+                                                <TextBlock Text="0.00" Foreground="Gray" Margin="6,0,0,0"/>
+                                            </VisualBrush.Visual>
+                                        </VisualBrush>
+                                    </TextBox.Resources>
+                                    <TextBox.Style>
+                                        <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                                            <Style.Triggers>
+                                                <Trigger Property="Text" Value="">
+                                                    <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                                                </Trigger>
+                                                <Trigger Property="Text" Value="{x:Null}">
+                                                    <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBox.Style>
+                                </TextBox>
                                 <TextBlock Text="Фото" Margin="0,0,0,5"/>
                                 <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                     <Button Content="Загрузить фото"

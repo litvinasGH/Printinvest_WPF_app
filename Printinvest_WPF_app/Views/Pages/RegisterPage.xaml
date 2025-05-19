@@ -21,6 +21,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <TextBlock Grid.Row="0" Text="{DynamicResource RegisterTitle}"
@@ -101,14 +102,43 @@
             </PasswordBox.Style>
         </PasswordBox>
 
-        <Button Grid.Row="4" Content="{DynamicResource RegisterButton}"
+        <PasswordBox Grid.Row="4" x:Name="ConfirmPasswordBox" PasswordChar="*"
+                     Width="200" Margin="0,0,0,10">
+            <PasswordBox.Resources>
+                <VisualBrush x:Key="PlaceholderBrush" AlignmentX="Left" AlignmentY="Center" Stretch="None">
+                    <VisualBrush.Visual>
+                        <TextBlock Text="{DynamicResource ConfirmPasswordPlaceholder}" Foreground="Gray" Margin="6,0,0,0"/>
+                    </VisualBrush.Visual>
+                </VisualBrush>
+                <conv:PasswordBoxConverter x:Key="PasswordBoxConverter"/>
+            </PasswordBox.Resources>
+            <PasswordBox.Style>
+                <Style TargetType="PasswordBox" BasedOn="{StaticResource {x:Type PasswordBox}}">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Password, RelativeSource={RelativeSource Self}, Converter={StaticResource PasswordBoxConverter}}" Value="">
+                            <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Password, RelativeSource={RelativeSource Self}, Converter={StaticResource PasswordBoxConverter}}" Value="{x:Null}">
+                            <Setter Property="Background" Value="{StaticResource PlaceholderBrush}"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </PasswordBox.Style>
+        </PasswordBox>
+
+        <Button Grid.Row="5" Content="{DynamicResource RegisterButton}"
                 Command="{Binding RegisterCommand}"
                 Width="100" Margin="0,0,0,10"/>
 
-        <TextBlock Grid.Row="5">
-            <Hyperlink NavigateUri="LoginPage.xaml" Command="{Binding NavigateCommand}" CommandParameter="LoginPage">
+        <TextBlock Grid.Row="6" HorizontalAlignment="Center">
+            <Hyperlink Command="{Binding NavigateToLoginCommand}">
                 <TextBlock Text="{DynamicResource LoginLink}"/>
             </Hyperlink>
         </TextBlock>
+
+        <TextBlock Grid.Row="6" Text="{Binding ErrorMessage}"
+                   Foreground="Red" Margin="0,20,0,0" HorizontalAlignment="Center"
+                   />
     </Grid>
 </Page>

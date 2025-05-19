@@ -41,7 +41,7 @@
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
-                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding UserId}" Width="150"/>
+                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding User.Name}" Width="150"/>
                                 <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}" Width="120"/>
                                 <GridViewColumn Header="Статус" DisplayMemberBinding="{Binding Status, Converter={StaticResource OrderStatusConverter}}" Width="100"/>
                             </GridView>
@@ -93,7 +93,7 @@
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
-                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding UserId}" Width="150"/>
+                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding User.Name}" Width="150"/>
                                 <GridViewColumn Header="Продукт" DisplayMemberBinding="{Binding Product.Name}" Width="150"/>
                                 <GridViewColumn Header="Услуга" DisplayMemberBinding="{Binding Service.Name}" Width="150"/>
                                 <GridViewColumn Header="Действие" DisplayMemberBinding="{Binding Action}" Width="100"/>
@@ -101,6 +101,33 @@
                             </GridView>
                         </ListView.View>
                     </ListView>
+                </Grid>
+            </TabItem>
+
+            <!-- Вкладка Комментарии -->
+            <TabItem Header="Комментарии">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ListView ItemsSource="{Binding Comments}" SelectedItem="{Binding SelectedComment}"
+                              Margin="0,0,10,0">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
+                                <GridViewColumn Header="Продукт" DisplayMemberBinding="{Binding Product.Name}" Width="150"/>
+                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding User.Name}" Width="150"/>
+                                <GridViewColumn Header="Текст" DisplayMemberBinding="{Binding Text}" Width="200"/>
+                                <GridViewColumn Header="Дата" DisplayMemberBinding="{Binding Timestamp, StringFormat={}{0:dd.MM.yyyy HH:mm}}" Width="120"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <StackPanel Grid.Column="1" Orientation="Vertical" Margin="5">
+                        <Button Content="Удалить комментарий"
+                                Command="{Binding DeleteCommentCommand}"
+                                Width="150"/>
+                    </StackPanel>
                 </Grid>
             </TabItem>
         </TabControl>

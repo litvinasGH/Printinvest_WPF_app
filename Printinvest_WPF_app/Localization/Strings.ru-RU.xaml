@@ -56,4 +56,6 @@
     <sys:String x:Key="AddToCartButton">В корзину</sys:String>
     <sys:String x:Key="CommentsTitle">Комментарии</sys:String>
     <sys:String x:Key="AddCommentButton">Добавить комментарий</sys:String>
+
+    <sys:String x:Key="ConfirmPasswordPlaceholder">Подтвердить пароль</sys:String>
 </ResourceDictionary>

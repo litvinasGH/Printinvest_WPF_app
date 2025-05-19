@@ -43,7 +43,7 @@ namespace Printinvest_WPF_app.ViewModels
                 if (user == null || !HashHelper.VerifyPassword(Password, user.HashPassword))
                 {
                     MessageBox.Show(Application.Current.TryFindResource("ErrorInvalidCredentials")?.ToString() ?? "Invalid login or password",
-                                    "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                                "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
 

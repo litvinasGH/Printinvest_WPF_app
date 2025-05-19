@@ -91,39 +91,42 @@
                     <WrapPanel Orientation="Horizontal" />
                 </ItemsPanelTemplate>
             </ListView.ItemsPanel>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Border BorderBrush="{DynamicResource TextBoxBorderColor}"
-                            BorderThickness="1"
-                            CornerRadius="5"
-                            Margin="5"
-                            Width="200"
-                            Background="{DynamicResource ContentBackgroundBrush}">
-                        <StackPanel Margin="10">
-                            <TextBlock Text="{Binding Name}"
-                                       FontWeight="Bold"
-                                       Foreground="{DynamicResource TextBrush}" />
-                            <TextBlock Text="{Binding Path=., Converter={StaticResource ItemTypeConverter}}"
-                                       Foreground="{DynamicResource NavTextBrush}"
-                                       FontStyle="Italic" />
-                            <TextBlock Text="{Binding Description}"
-                                       TextWrapping="Wrap"
-                                       MaxHeight="50"
-                                       Foreground="{DynamicResource TextBrush}" />
-                            <Image Source="{Binding Photo, Converter={StaticResource ByteArrayToImageConverter}, FallbackValue={StaticResource DefaultProductImage}}"
-                                   Height="100"
-                                   Margin="0,5,0,5"
-                                   Stretch="Uniform" />
-                            <Button Content="{DynamicResource AddToCartButton}"
-                                    Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}"
-                                    CommandParameter="{Binding}"
-                                    Margin="0,5,0,0"
-                                    Width="100"/>
-                        </StackPanel>
-                    </Border>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="{DynamicResource TextBoxBorderColor}"
+                BorderThickness="1"
+                CornerRadius="5"
+                Margin="5"
+                Width="200"
+                Background="{DynamicResource ContentBackgroundBrush}">
+                            <StackPanel Margin="10">
+                                <TextBlock Text="{Binding Name}"
+                           FontWeight="Bold"
+                           Foreground="{DynamicResource TextBrush}" />
+                                <TextBlock Text="{Binding Path=., Converter={StaticResource ItemTypeConverter}}"
+                           Foreground="{DynamicResource NavTextBrush}"
+                           FontStyle="Italic" />
+                                <TextBlock Text="{Binding Description}"
+                           TextWrapping="Wrap"
+                           MaxHeight="50"
+                           Foreground="{DynamicResource TextBrush}" />
+                                <TextBlock Text="{Binding Price, StringFormat='{}Цена: {0:F2} BYN'}"
+                           Foreground="{DynamicResource TextBrush}"
+                           Margin="0,5,0,5" />
+                                <Image Source="{Binding Photo, Converter={StaticResource ByteArrayToImageConverter}, FallbackValue={StaticResource DefaultProductImage}}"
+                       Height="100"
+                       Margin="0,5,0,5"
+                       Stretch="Uniform" />
+                                <Button Content="{DynamicResource AddToCartButton}"
+                        Command="{Binding DataContext.AddToCartCommand, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}"
+                        CommandParameter="{Binding}"
+                        Margin="0,5,0,0"
+                        Width="100"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
 
     </Grid>
     </ScrollViewer>

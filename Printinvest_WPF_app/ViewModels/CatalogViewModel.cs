@@ -84,7 +84,7 @@ namespace Printinvest_WPF_app.ViewModels
             {
                 if (_productRepository == null || _serviceRepository == null)
                 {
-                    MessageBox.Show("Репозитории не инициализированы. Пожалуйста, перезапустите приложение.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    //MessageBox.Show("Репозитории не инициализированы. Пожалуйста, перезапустите приложение.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
 
@@ -117,7 +117,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка загрузки каталога: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка загрузки каталога: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

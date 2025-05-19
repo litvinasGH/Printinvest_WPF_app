@@ -36,7 +36,16 @@ namespace Printinvest_WPF_app.ViewModels
                 else 
                     CurrentPage = new ProfilePage(); 
             });
-            NavigateCartCommand = new RelayCommand(() => CurrentPage = new CartPage());
+            NavigateCartCommand = new RelayCommand(() => {
+                if (!SessionManager.IsAuthenticated)
+                    CurrentPage = new LoginPage();
+                else if (SessionManager.IsAdmin)
+                    CurrentPage = new AdminPanelPage();
+                else if (SessionManager.IsManager)
+                    CurrentPage = new ManagerPanelPage();
+                else
+                    CurrentPage = new CartPage();
+                });
             ToggleNavCommand = new RelayCommand(() => NavVisible = !NavVisible);
             ChangeThemeCommand = new RelayCommand(ToggleTheme);
             ChangeLanguageCommand = new RelayCommand(ToggleLanguage);

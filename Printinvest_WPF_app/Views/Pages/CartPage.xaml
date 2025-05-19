@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:vm="clr-namespace:Printinvest_WPF_app.ViewModels"
+      xmlns:converters="clr-namespace:Printinvest_WPF_app.Converters"
       mc:Ignorable="d"
       Title="CartPage"
       Background="{DynamicResource ContentBackgroundBrush}">
@@ -11,6 +12,11 @@
     <Page.DataContext>
         <vm:CartViewModel />
     </Page.DataContext>
+
+    <Page.Resources>
+        <converters:CartItemPriceConverter x:Key="CartItemPriceConverter"/>
+        <converters:CartItemTotalPriceConverter x:Key="CartItemTotalPriceConverter"/>
+    </Page.Resources>
 
     <Grid Margin="20">
         <Grid.RowDefinitions>
@@ -20,7 +26,6 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- Заголовок -->
         <TextBlock Grid.Row="0"
                    Text="{DynamicResource CartTitle}"
                    FontSize="24"
@@ -28,7 +33,6 @@
                    Foreground="{DynamicResource TextBrush}"
                    Margin="0,0,0,10"/>
 
-        <!-- Список элементов корзины -->
         <ListView Grid.Row="1"
                   ItemsSource="{Binding CartItems}"
                   Margin="0,0,0,20"
@@ -39,6 +43,13 @@
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding ItemName}" TextWrapping="Wrap"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Цена за единицу" Width="100">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ., Converter={StaticResource CartItemPriceConverter}, UpdateSourceTrigger=PropertyChanged}"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -63,6 +74,13 @@
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
+                    <GridViewColumn Header="Общая стоимость" Width="100">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ., Converter={StaticResource CartItemTotalPriceConverter}}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                     <GridViewColumn Header="Действия" Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
@@ -78,7 +96,14 @@
             </ListView.View>
         </ListView>
 
-        <!-- Форма доставки -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,20">
+            <TextBlock Text="{Binding TotalPrice, StringFormat='{}Общая сумма: {0:F2} BYN'}"
+                       FontWeight="Bold"
+                       FontSize="16"
+                       Foreground="{DynamicResource TextBrush}"
+                       Margin="0,0,10,0"/>
+        </StackPanel>
+
         <GroupBox Grid.Row="2"
                   Header="Информация о доставке"
                   Margin="0,0,0,20">
@@ -97,7 +122,6 @@
             </StackPanel>
         </GroupBox>
 
-        <!-- Форма оплаты и оформление заказа -->
         <StackPanel Grid.Row="3" Orientation="Vertical">
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
                 <TextBlock Text="Способ оплаты:" Margin="0,0,10,0" VerticalAlignment="Center"/>

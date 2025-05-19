@@ -23,7 +23,7 @@ namespace Printinvest_WPF_app
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка инициализации базы данных: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка инициализации базы данных: {ex.Message}", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
                 Shutdown(); 
                 return;
             }

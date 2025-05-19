@@ -31,26 +31,28 @@
                    Margin="0,0,0,10"/>
 
         <!-- Информация о товаре -->
-        <StackPanel Grid.Row="1" Margin="0,0,0,20">
-            <Image Source="{Binding Product.Photo, Converter={StaticResource ByteArrayToImageConverter}, FallbackValue={StaticResource DefaultProductImage}}"
-                   Height="200"
-                   Stretch="Uniform"
-                   Margin="0,0,0,10"/>
-            <TextBlock Text="{Binding Product, Converter={StaticResource ItemTypeConverter}}"
-                       FontStyle="Italic"
-                       Foreground="{DynamicResource NavTextBrush}"
-                       Margin="0,0,0,5"/>
-            <TextBlock Text="{Binding Product.Description}"
-                       TextWrapping="Wrap"
-                       Foreground="{DynamicResource TextBrush}"
-                       Margin="0,0,0,5"/>
-            <TextBlock Text="{Binding Characteristics, StringFormat='Характеристики: {0}'}"
-                       TextWrapping="Wrap"
-                       Foreground="{DynamicResource TextBrush}"
-                       Visibility="{Binding IsProduct, Converter={StaticResource BoolToVis}}"/>
-        </StackPanel>
-
-        <!-- Кнопка "В корзину" -->
+            <StackPanel Grid.Row="1" Margin="0,0,0,20">
+                <Image Source="{Binding Product.Photo, Converter={StaticResource ByteArrayToImageConverter}, FallbackValue={StaticResource DefaultProductImage}}"
+           Height="200"
+           Stretch="Uniform"
+           Margin="0,0,0,10"/>
+                <TextBlock Text="{Binding Product, Converter={StaticResource ItemTypeConverter}}"
+               FontStyle="Italic"
+               Foreground="{DynamicResource NavTextBrush}"
+               Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Product.Description}"
+               TextWrapping="Wrap"
+               Foreground="{DynamicResource TextBrush}"
+               Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Product.Price, StringFormat='{}Цена: {0:F2} BYN'}"
+               Foreground="{DynamicResource TextBrush}"
+               Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Characteristics, StringFormat='Характеристики: {0}'}"
+               TextWrapping="Wrap"
+               Foreground="{DynamicResource TextBrush}"
+               Visibility="{Binding IsProduct, Converter={StaticResource BoolToVis}}"/>
+            </StackPanel>
+            <!-- Кнопка "В корзину" -->
         <Button Grid.Row="2"
                 Content="{DynamicResource AddToCartButton}"
                 Command="{Binding AddToCartCommand}"

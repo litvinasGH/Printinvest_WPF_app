@@ -56,4 +56,5 @@
     <sys:String x:Key="AddToCartButton">Add to Cart</sys:String>
     <sys:String x:Key="CommentsTitle">Comments</sys:String>
     <sys:String x:Key="AddCommentButton">Add Comment</sys:String>
+    <sys:String x:Key="ConfirmPasswordPlaceholder">Confirm password</sys:String>
 </ResourceDictionary>

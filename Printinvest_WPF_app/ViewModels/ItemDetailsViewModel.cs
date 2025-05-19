@@ -19,6 +19,8 @@ namespace Printinvest_WPF_app.ViewModels
         private readonly CommentRepository _commentRepository;
         private readonly CartRepository _cartRepository;
 
+        public string Price => Product != null ? $"{Product.Price:F2} BYN" : string.Empty;
+
         public Product Product
         {
             get => _product;
@@ -69,6 +71,7 @@ namespace Printinvest_WPF_app.ViewModels
                     }
                 );
             }
+
         }
 
         public void Initialize()
@@ -85,7 +88,7 @@ namespace Printinvest_WPF_app.ViewModels
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка загрузки комментариев: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show($"Ошибка загрузки комментариев: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -169,7 +172,7 @@ namespace Printinvest_WPF_app.ViewModels
                 _commentRepository.Add(comment);
                 Comments.Add(comment);
                 NewComment = string.Empty;
-                MessageBox.Show("Комментарий добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                //MessageBox.Show("Комментарий добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
