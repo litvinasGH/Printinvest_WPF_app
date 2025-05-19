@@ -93,7 +93,7 @@
                         <ListView.View>
                             <GridView>
                                 <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="50"/>
-                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding User.Name}" Width="150"/>
+                                <GridViewColumn Header="Пользователь" DisplayMemberBinding="{Binding UserId}" Width="150"/>
                                 <GridViewColumn Header="Продукт" DisplayMemberBinding="{Binding Product.Name}" Width="150"/>
                                 <GridViewColumn Header="Услуга" DisplayMemberBinding="{Binding Service.Name}" Width="150"/>
                                 <GridViewColumn Header="Действие" DisplayMemberBinding="{Binding Action}" Width="100"/>
