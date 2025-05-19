@@ -58,4 +58,5 @@
     <sys:String x:Key="AddCommentButton">Добавить комментарий</sys:String>
 
     <sys:String x:Key="ConfirmPasswordPlaceholder">Подтвердить пароль</sys:String>
+    <sys:String x:Key="ErrorPasswordTooShort">Пароль слишком короткий</sys:String>
 </ResourceDictionary>

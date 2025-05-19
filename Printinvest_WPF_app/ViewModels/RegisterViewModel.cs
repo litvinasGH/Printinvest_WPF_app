@@ -73,7 +73,11 @@ namespace Printinvest_WPF_app.ViewModels
                     ErrorMessage = Application.Current.Resources["ErrorPasswordsDoNotMatch"]?.ToString() ?? "Пароли не совпадают.";
                     return;
                 }
-
+                if (Password.Length < 6)
+                {
+                    ErrorMessage = Application.Current.Resources["ErrorPasswordTooShort"]?.ToString() ?? "Пароль слишком короткий. Минимум 6 символов.";
+                    return;
+                }
                 var existingUser = _userRepository.GetByLogin(Login);
                 if (existingUser != null)
                 {
