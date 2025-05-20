@@ -1,266 +1,273 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\git\\Printinvest_WPF_app\\",
+  "WorkspaceRootPath": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|d:\\git\\printinvest_wpf_app\\printinvest_wpf_app\\converters\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\converters\\hashhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\itemdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\itemdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|d:\\git\\printinvest_wpf_app\\printinvest_wpf_app\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\localization\\strings.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\localization\\strings.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\recoverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\recoverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\managerpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\managerpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\managerpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\managerpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\adminpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\adminpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\adminpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\adminpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\adminpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|c:\\users\\litvi\\documents\\printinvest_wpf_app\\printinvest_wpf_app\\viewmodels\\adminpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\adminpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\Analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Data\\PrintinvestContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\localization\\strings.en-us.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\localization\\strings.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\localization\\strings.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\recoverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\recoverviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\managerpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\managerpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\itemdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\itemdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\catalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\cartpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\catalogpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\repositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\analyticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\analyticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\analyticrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\servicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\analytic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\analytic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\analytic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\models\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\models\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\cartitemtotalpriceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\cartitemtotalpriceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\converters\\cartitemtotalpriceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\converters\\bytearraytoimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\itemdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\itemdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\itemdetailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\managerpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\managerpanelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\managerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\managerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\managerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\productpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\passwordrecoverypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\passwordrecoverypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\passwordrecoverypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\themes\\lighttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\themes\\darktheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\booltovisconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\converters\\booltovisconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\converters\\booltovisconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|D:\\git\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\printinvest_wpf_app\\views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{26CB9FA4-1DD5-47C8-9639-C6156C642058}|Printinvest_WPF_app\\Printinvest_WPF_app.csproj|solutionrelative:printinvest_wpf_app\\views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Repositories\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Data\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Repositories\\RepositoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\OrderProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -270,7 +277,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 170,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -282,292 +289,120 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HashHelper.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\HashHelper.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Converters\\HashHelper.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\HashHelper.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Converters\\HashHelper.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T23:19:27.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAkwGcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:51:43.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:52:09.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemDetailsViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAiwJoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:04:05.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProfileViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:51:53.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:08:05.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Strings.en-US.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:12:25.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwDQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:51:31.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CatalogViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAcwMMAAAAJAAAAAAAAAA==",
+              "Title": "ManagerPanelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-19T11:59:28.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminPanelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAwwMcAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:02:42.063Z",
+              "WhenOpened": "2025-05-18T08:52:19.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CartViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAmwBIBAAAJAAAAAAAAAA==",
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAywEkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:52:01.622Z",
+              "WhenOpened": "2025-05-18T08:51:53.061Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ManagerPanelViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwAwBAAABAAAAAAAAAA==",
+              "DocumentIndex": 62,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvwYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:52:28.808Z"
+              "WhenOpened": "2025-05-18T08:50:06.844Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwCQAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 59,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwB8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:09:15.383Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-05-18T09:18:41.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Strings.ru-RU.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
+              "DocumentIndex": 2,
+              "Title": "AdminPanelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:12:12.846Z"
+              "WhenOpened": "2025-05-19T15:29:32.655Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RecoverViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAADwvzsAAAASAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "PrintinvestContext.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T16:00:55.699Z"
+              "WhenOpened": "2025-05-18T08:49:03.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Cart.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Cart.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Cart.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 61,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:48:12.367Z"
+              "WhenOpened": "2025-05-18T09:16:30.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T08:52:44.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Comment.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Comment.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 58,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:48:02.119Z"
+              "WhenOpened": "2025-05-18T09:23:39.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\User.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\User.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:47:24.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Order.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Order.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Order.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwCkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:48:22.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "DarkTheme.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:11:25.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ItemDetailsPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T13:04:23.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:50:23.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "LightTheme.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\LightTheme.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Themes\\LightTheme.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\LightTheme.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Themes\\LightTheme.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:11:06.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "ByteArrayToImageConverter.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
               "RelativeToolTip": "Printinvest_WPF_app\\Converters\\ByteArrayToImageConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -575,81 +410,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:51:11.24Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AdminPanelViewModel.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\AdminPanelViewModel.cs",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAUwCgBAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:52:19.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CartPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T15:29:09.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CartRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\CartRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CartRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\CartRepository.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswE0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:21:23.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAArwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:22:22.485Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AdminPanelPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\AdminPanelPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T15:29:32.655Z"
+              "Title": "CatalogViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\CatalogViewModel.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAmwOwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:02:42.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "CommentRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
               "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\CommentRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAArwBYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -657,373 +434,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "CatalogPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
               "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\CatalogPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-19T13:03:33.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
               "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-18T08:52:55.023Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ManagerPanelPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanelPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-19T11:59:28.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Analytics.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Analytics.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Analytics.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:47:35.737Z"
+              "WhenOpened": "2025-05-18T08:48:30.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ManagerPanel.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
+              "DocumentIndex": 18,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAuwBABAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:52:01.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:51:11.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\CartPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T08:54:26.414Z"
+              "WhenOpened": "2025-05-19T15:29:09.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\CartRepository.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswE0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:21:23.586Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Repositories.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\Repositories.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\Repositories.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\Repositories.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\Repositories.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAsAAAADAAAAAAAAAA==",
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAArwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T09:24:18.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AnalyticRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwEEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:20:57.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CartItemTotalPriceConverter.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T13:32:56.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ServiceRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwDIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:20:30.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:20:06.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\MainWindow.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:27:48.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\App.xaml.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\App.xaml.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowDYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:07:37.249Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\App.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:10:11.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "FrameworkTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
-              "ToolTip": "C:\\Users\\litvi\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
-              "ViewState": "AgIAAF4DAAAAAAAAAAApwGADAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T07:43:33.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:19:26.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Analytic.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytic.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Analytic.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytic.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Analytic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:17:15.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Items.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Items.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Items.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Items.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Items.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:16:51.603Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T11:40:14.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:21:30.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:51:20.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Properties\\Settings.settings",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.settings",
-              "RelativeToolTip": "Printinvest_WPF_app\\Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-05-18T08:14:47.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ProductPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T08:53:42.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "PasswordRecoveryPage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T08:53:04.765Z"
+              "WhenOpened": "2025-05-19T15:22:22.485Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 60,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderService.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\OrderService.cs",
               "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderService.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\OrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T09:17:33.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "PrintinvestContext.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\PrintinvestContext.cs",
+              "DocumentIndex": 66,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:49:03.149Z"
+              "WhenOpened": "2025-05-18T08:51:20.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Analytics.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytics.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "FrameworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
+              "ToolTip": "C:\\Users\\litvi\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cb3a5b2d5f1a611cf55ec0b0ad661358686831766d689a5c2526b24c2c29a178\\FrameworkTemplate.cs",
+              "ViewState": "AgIAAF4DAAAAAAAAAAApwGADAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:48:30.749Z"
+              "WhenOpened": "2025-05-18T07:43:33.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Data\\DbInitializer.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwB8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 65,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Product.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T09:18:41.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T09:23:39.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Styles\\Styles.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Styles\\Styles.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Styles\\Styles.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:11:41.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:20:49.796Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "HomePage.xaml",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
-              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
-              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-18T07:15:29.155Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T09:16:30.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "RepositoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
-              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\RepositoryManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvwYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T08:50:06.844Z"
+              "WhenOpened": "2025-05-18T08:47:35.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 64,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Service.cs",
               "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Service.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Service.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T08:47:51.428Z"
@@ -1033,18 +589,478 @@
               "DocumentIndex": 65,
               "Title": "OrderProduct.cs",
               "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderProduct.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\OrderProduct.cs",
               "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\OrderProduct.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\OrderProduct.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAmwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T09:17:16.912Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:52:09.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ItemDetailsViewModel.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwK4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:04:05.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:07:37.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:08:05.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Strings.en-US.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Localization\\Strings.en-US.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:12:25.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManagerPanelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\ManagerPanelViewModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:52:28.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwE0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:51:43.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwCQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T07:09:15.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Strings.ru-RU.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Localization\\Strings.ru-RU.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:12:12.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RecoverViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\RecoverViewModel.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwvzsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:00:55.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Cart.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Cart.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:48:12.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T08:52:44.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Comment.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:48:02.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\User.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:47:24.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Order.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Order.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:48:22.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwC0AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:51:31.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DarkTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Themes\\DarkTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:11:25.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ItemDetailsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\ItemDetailsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-19T13:04:23.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T06:50:23.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LightTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\LightTheme.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Themes\\LightTheme.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Themes\\LightTheme.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Themes\\LightTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:11:06.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ManagerPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ManagerPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T08:54:26.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Repositories.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\Repositories.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\Repositories.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\Repositories.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\Repositories.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T09:24:18.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnalyticRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\AnalyticRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:20:57.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CartItemTotalPriceConverter.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Converters\\CartItemTotalPriceConverter.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:32:56.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\ServiceRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwDIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:20:30.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:20:06.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:27:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\App.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\App.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:10:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:19:26.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Analytic.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytic.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Analytic.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Analytic.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Analytic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:17:15.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Items.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Items.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Models\\Items.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Models\\Items.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Models\\Items.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:16:51.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Repositories\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T11:40:14.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:21:30.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.settings",
+              "RelativeToolTip": "Printinvest_WPF_app\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2025-05-18T08:14:47.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ProductPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T08:53:42.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PasswordRecoveryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\PasswordRecoveryPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T08:53:04.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Styles\\Styles.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Styles\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:11:41.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:20:49.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Printinvest_WPF_app\\Views\\Pages\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-18T07:15:29.155Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 55,
               "Title": "BoolToVisConverter.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
               "RelativeToolTip": "Printinvest_WPF_app\\Converters\\BoolToVisConverter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1054,9 +1070,9 @@
               "$type": "Document",
               "DocumentIndex": 53,
               "Title": "Settings.Designer.cs",
-              "DocumentMoniker": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
               "RelativeDocumentMoniker": "Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
-              "ToolTip": "D:\\git\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\Users\\litvi\\Documents\\Printinvest_WPF_app\\Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
               "RelativeToolTip": "Printinvest_WPF_app\\Properties\\Settings.Designer.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
